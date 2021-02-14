@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>w10school</title>
+	<link rel="stylesheet" type="text/css" href="w4.css">
+</head>
+<body>
+		 <img class="w4" src="w4.png">
+	<div class="choices">
+			<a href="index.html">HTML</a>	
+			<a href="css.html">CSS</a>
+			<a href="index.html">HTML </a>	
+			<a href="css.html">CSS</a>
+			<a href="index.html">HTML </a>			
+	</div>
+	<div class="sides">
+		<a href="#INTRO">CSS Introduction</a>	
+		<br>
+		<a href="#Synt">CSS Syntax</a>
+		<br>
+		<a href="#SELEC">CSS Selectors</a>	
+		<br>
+		<a href="#NEXTS">CSS How To</a>
+		<br>
+		<a href="#NEXTS">CSS Comments</a>
+		<br>
+		<a href="#NEXTS">CSS Colors</a>
+		<br>
+		<a href="#NEXTS">CSS Backgrounds</a>
+		<br>
+		<a href="#NEXTS">CSS Borders</a>
+		<br>
+		<a href="#NEXTS">CSS Padding</a>
+		<br>
+		<a href="#NEXTS">CSS Border</a>
+		<br>
+		<a href="#NEXTS">CSS Tables</a>
+		<br>
+		<a href="#NEXTS">CSS Links</a>
+		<br>
+		<a href="#NEXTS">CSS Display</a>
+		<br>
+		<a href="#NEXTS">CSS List</a>
+		<br>
+		<a href="#NEXTS">CSS Images</a>			
+	</div>
+
+	<div id="INTRO">
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+		<main id="main-doc" >
+		<section></section>
+		<header> CSS Introduction</header>
+		<article>
+			<h1>What is CSS?</h1>
+			<ul>
+				<li><strong>CSS</strong> stands for <strong>C</strong>ascading <strong>S</strong>tyle <strong>S</strong>heets</li>
+				<li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+				<li>CSS <strong>saves a lot</strong> of work. It can control the layout of multiple web pages all at once</li>
+				<li>External stylesheets are stored in <strong>CSS files</strong></li>
+			</ul>
+			<hr class="liness">
+			<h1>Why Use CSS?</h1>
+			<p>CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.</p>
+			<div class="pads">
+				<h2>Css example</h2>
+				<img class="imag" src="ex4.jpg">
+			</div>
+			<hr class="liness">
+			<h1>CSS Solved a Big Problem</h1>
+			<p>
+				HTML was NEVER intended to contain tags for formatting a web page!
+				<br>
+				<br>
+				HTML was created to <strong>describe the content</strong> of a web page, like:
+				<br>
+				<br>
+				&#60;h1>This is a heading&#60;/h1>
+				<br>
+				<br>
+				&#60;p>This is a paragraph.&#60;/p>
+				<br>
+				<br>
+				When tags like &#60;font>, and color attributes were added to the 
+				HTML 3.2 specification, it started a nightmare for web developers.
+				<br>
+				Development of large websites, where fonts and color information were added to every single page, became a long and expensive process.
+				<br>
+				<br>
+				To solve this problem, the World Wide Web Consortium (W3C) created CSS.
+				<br>
+				<br>
+				CSS removed the style formatting from the HTML page!
+			</p>
+			<hr class="liness">
+			<h1>CSS Saves a Lot of Work!</h1>
+			<p>The style definitions are normally saved in external .css files.
+				<br>
+				<br>
+				With an external stylesheet file, you can change the look of an entire website by changing just one file!</p>
+			<hr class="liness">
+		</article>
+
+		<div id="Synt">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<header> SYNTAX </header>
+			<article>
+				<h1>CSS Syntax</h1>
+				<p>A CSS rule-set consists of a selector and a declaration block:</p>
+				<img class="imag" src="ex5.jpg">
+				<p>The selector points to the HTML element you want to style.
+			<br>
+			<br>
+				The declaration block contains one or more declarations separated by semicolons.
+			<br>
+			<br>
+				Each declaration includes a CSS property name and a value, separated by a colon.
+			<br>
+			<br>
+				Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</p>
+
+			<div class="pads">
+				<h2>Example</h2>
+				<p>In this example all <p> elements will be center-aligned, with a red text color:</p>
+				<img class="imag" src="ex6.jpg">
+			</div>
+			<h3>Example Explanation</h3>
+			<ul>
+				<li><strong>p</strong> is a selector in CSS (it points to the HTML element you want to style: &#60;p>).</li>
+				<li><strong>color</strong> is a property, and red is the property value</li>
+				<li><strong>text-align</strong> is a property, and center is the property value</li>
+			</ul>
+			</article>
+		</div>	
+		<hr class="liness">
+
+		<div id="SELEC">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<header>SELECTORS</header>
+			<article>
+			<h1>CSS Selectors</h1>
+			<p>CSS selectors are used to "find" (or select) the HTML elements you want to style.
+			<br>
+			<br>
+			We can divide CSS selectors into five categories:</p>
+			<ul>
+				<li>Simple selectors (select elements based on name, id, class)</li>
+				<li>Combinator selectors (select elements based on a specific relationship between them)</li>
+				<li>Pseudo-class selectors (select elements based on a certain state)</li>
+				<li>Pseudo-elements selectors (select and style a part of an element)</li>
+				<li>Attribute selectors (select elements based on an attribute or attribute value)</li>
+			</ul>
+			<hr class="liness">
+			<h1>The CSS element Selector</h1>
+			<p>The element selector selects HTML elements based on the element name.</p>
+			<div class="pads">
+				<h2>Example</h2>
+				<p>Here, all <p> elements on the page will be center-aligned, with a red text color: </p>
+				<img class="imag" src="ex7.jpg">
+			</div>
+			<hr class="liness">
+			<h1>The CSS id Selector</h1>
+			<p>The id selector uses the id attribute of an HTML element to select a specific element.
+				<br>
+				<br>
+			The id of an element is unique within a page, so the id selector is used to select one unique element!
+				<br>
+				<br>
+			To select an element with a specific id, write a hash (#) character, followed by the id of the element.</p>
+			<div class="pads">
+				<h2>Example</h2>
+				<p>The CSS rule below will be applied to the HTML element with id="para1": </p>
+				<img class="imag" src="ex8.jpg">
+			</div>
+			<hr class="liness">
+			</article>
+		</div>
+
+		<div id="NEXTS">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<hr class="liness">
+			<h1 class="PROCESSING"> PROCESSING .......</h1>
+			<hr class="liness">
+		</div>
+		
+	</main>
+	</div>
+</body>
+</html>
